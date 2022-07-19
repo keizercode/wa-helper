@@ -8,13 +8,7 @@ const defaultSEOConfig = {
     title: "WA Helper",
     description: "Send Whastapp message without saving the contact first.",
     type: "website",
-
     site_name: "https://bantuwa.netlify.app/",
-  },
-  twitter: {
-    handle: "@handle",
-    site: "@site",
-    cardType: "summary_large_image",
   },
   additionalLinkTags: [
     {
