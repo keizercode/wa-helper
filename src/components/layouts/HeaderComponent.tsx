@@ -38,7 +38,7 @@ const HeaderComponent = () => {
         <div className="inline-flex items-center gap-1 md:gap-3">
           <ButtonLink
             variant="ghost"
-            href="https://github.com/yehezkielgunawan/wa-helper"
+            href="https://github.com/keizercode/wa-helper"
             className={clsxm(
               "gap-2 text-lightgray-900 dark:text-lightgray-400",
               "hover:bg-daviesgrey-100 dark:hover:bg-daviesgrey-400"

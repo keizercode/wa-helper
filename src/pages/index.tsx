@@ -153,29 +153,6 @@ const Home = ({ countryCodes }: { countryCodes: Array<CountryCodeProps> }) => {
             >
               Generate
             </Button>
-            <Button
-              variant="outline"
-              className="grow gap-2"
-              onClick={() => handleCopiedLink()}
-              isLoading={copiedLink.length < 1 && isCopied ? true : false}
-              disabled={waNum.length < 10}
-            >
-              <FaCopy size="16" /> Copy Link
-            </Button>
-          </div>
-        </section>
-        <section
-          className={clsxm(
-            "invisible my-4 mx-auto max-w-lg rounded p-3",
-            "bg-teal-200 dark:bg-teal-500",
-            isCopied && copiedLink.length > 1 && "visible"
-          )}
-        >
-          <div className="inline-flex w-full items-center justify-between gap-2">
-            <p className="text-xs">
-              Copied URL: <span className="font-bold italic">{copiedLink}</span>{" "}
-            </p>
-            <FaCheck size={16} />
           </div>
         </section>
       </main>
