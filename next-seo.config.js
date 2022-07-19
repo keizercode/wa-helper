@@ -2,9 +2,9 @@
 const defaultSEOConfig = {
   defaultTitle: "WA Helper",
   description: "Send Whastapp message without saving the contact first.",
-  canonical: "https://wa.yehezgun.com",
+  canonical: "https://bantuwa.netlify.app/",
   openGraph: {
-    url: "https://wa.yehezgun.com",
+    url: "https://bantuwa.netlify.app/",
     title: "WA Helper",
     description: "Send Whastapp message without saving the contact first.",
     type: "website",
@@ -16,7 +16,7 @@ const defaultSEOConfig = {
         height: 600,
       },
     ],
-    site_name: "wa.yehezgun.com",
+    site_name: "https://bantuwa.netlify.app/",
   },
   twitter: {
     handle: "@handle",
